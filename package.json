@@ -1,0 +1,30 @@
+{
+  "name": "encodeji",
+  "version": "1.0.0",
+  "description": "Encode :simple-names: for emoji as unicode codepoints.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coggle/encodeji.git"
+  },
+  "keywords": [
+    "emoji"
+  ],
+  "author": "james@coggle.it",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coggle/encodeji/issues"
+  },
+  "homepage": "https://github.com/Coggle/encodeji#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-replace": "^0.5.4"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}

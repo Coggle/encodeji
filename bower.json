@@ -1,0 +1,28 @@
+{
+  "name": "encodeji",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Coggle/encodeji",
+  "authors": [
+    "James Crosby <james@coggle.it>"
+  ],
+  "description": "Encode :simple-names: for emoji as unicode codepoints.",
+  "main": "dist/encodeji.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "emoji"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "emoji-data-minimal": "~2.4.4",
+    "underscore": "~1.8.3"
+  }
+}
