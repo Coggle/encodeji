@@ -1,6 +1,6 @@
 {
   "name": "encodeji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encode :simple-names: for emoji as unicode codepoints.",
   "main": "gulpfile.js",
   "scripts": {
