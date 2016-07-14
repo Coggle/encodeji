@@ -1,5 +1,5 @@
 # encodeji
-Encode emoji common names as unicode codepoints `:smile:` -> 😀
+Encode emoji short names as unicode codepoints `:smile:` -> 😀
 
 ## Installation
 
