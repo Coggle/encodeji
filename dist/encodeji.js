@@ -211,7 +211,7 @@ define('encodeji', function(){
         // Returns null if the name provided is not known
         id = id.toLowerCase();
         if(this.dataByShortName.hasOwnProperty(id)){
-            this.dataByShortName[id].short_name;
+            return this.dataByShortName[id].short_name;
         }else{
             return null;
         }
