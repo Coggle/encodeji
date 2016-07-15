@@ -21,7 +21,6 @@
     "tests"
   ],
   "dependencies": {
-    "emoji-data-minimal": "~2.4.4",
-    "underscore": "~1.8.3"
+    "emoji-data-minimal": "~2.4.4"
   }
 }
