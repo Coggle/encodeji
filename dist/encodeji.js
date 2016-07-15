@@ -213,8 +213,18 @@ define('encodeji', function(){
         if(this.dataByShortName.hasOwnProperty(id)){
             return this.dataByShortName[id].short_name;
         }else{
-            return null;
+            var variation = /([^:]*)::(skin-tone-[2-6])/.exec(id);
+            if(variation){
+                var p = this.primaryShortName(variation[1]);
+                if(p && this.dataByShortName.hasOwnProperty(p) && this.dataByShortName[p].skin_variations){
+                    var v = this.primaryShortName(variation[2]);
+                    if(p && v){
+                        return p + '::' + v;
+                    }
+                }
+            }
         }
+        return null;
     };
 
     Encodeji.prototype.possibleShortNames = function(including){
