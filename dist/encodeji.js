@@ -81,7 +81,7 @@ define('encodeji', function(){
                 for(var i = 0; i < self.data.length; i++){
                     v = self.data[i];
                     if((d.name && d.name == v.name) || (d.unified && d.unified == v.unified)){
-                        exists = true;
+                        exists = v;
                         break;
                     }
                 }
