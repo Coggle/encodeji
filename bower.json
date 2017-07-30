@@ -21,6 +21,6 @@
     "tests"
   ],
   "dependencies": {
-    "emoji-data-minimal": "~2.4.4"
+    "emoji-data-minimal": "^3.0.0"
   }
 }

@@ -89,3 +89,9 @@ When specifying `extendData` either "name" (the official unicode name) or
 "unified" (the codepoint) must be supplied for each item, to match it against
 existing items.
 
+## Changelog
+
+### 2.0.0
+ * support for skin-tone-x modifiers on female/male modified emoji (Emoji 4.0)
+ * **breaking** removed toUCS2 from public API
+

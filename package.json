@@ -22,9 +22,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
-    "gulp-replace": "^0.5.4"
-  },
-  "dependencies": {
+    "gulp-replace": "^0.5.4",
     "underscore": "^1.8.3"
   }
 }
