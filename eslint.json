@@ -3,7 +3,8 @@
     "ecmaFeatures": {},
     "env": {
         "amd": true,
-        "node": true
+        "node": true,
+        "browser": true
     },
     "rules": {
         "no-alert": "error",

@@ -94,4 +94,6 @@ existing items.
 ### 2.0.0
  * support for skin-tone-x modifiers on female/male modified emoji (Emoji 4.0)
  * **breaking** removed toUCS2 from public API
+ * add warnDuplicates option instead of always logging errors on duplicate
+   short names.
 
