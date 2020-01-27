@@ -322,6 +322,8 @@ define('encodeji', function(){
     Encodeji.prototype.possibleShortNames = function(including){
         // escape any regex-special chars before using 'including' in regex:
         var match = new RegExp(including.replace(/[\\^$*+?.()|[\]{}]/g, '\\$&'), 'i');
+        // ensure data is loaded:
+        this.data();
         return this.allShortNames.filter(function(v){
             return match.exec(v);
         });
