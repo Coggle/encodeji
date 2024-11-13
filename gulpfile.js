@@ -30,15 +30,16 @@ var emojiData = function(){
         return r;
     });
 
-
-    return JSON.stringify(data);
+    // double-stringifying so we end up with a single string, which is much faster for browsers to skip over on an initial parse
+    var stringified = JSON.stringify(data);
+    return "'" + stringified.replaceAll("\\", "\\\\").replaceAll("'", "\\'") + "'";
 };
 
 gulp.task('build-js', function(){
     return gulp.src([
         './lib/**/*.js'
     ]).pipe(replace(
-        'EMOJI_DATA_JSON', emojiData
+        'EMOJI_DATA_JSON_STRING', emojiData
     )).pipe(gulp.dest('./dist'));
 });
 
